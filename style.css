@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 1110px;
+    height: 600px;
+}
+    
+body{
+    margin-left: 200px;
+    margin-right: 210px;
+    font-family: "Roboto", sans-serif;
+}
+
+section.main-container{
+    box-shadow: inset 0 0 1em white, 0 0 2em rgb(162, 162, 162);
+}
+
+section.hero .camera-image{
+    width: 800px;
+    margin-left:500px;
+}
+
+section.hero .left-side{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 70px;
+    
+}
+
+.button{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding : 10px 10px;
+    background-color: #fff;
+    border-color: #eeee;  
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width:200px;
+    margin-left:50px;
+    margin-top:10px;
+}
+
+.button:hover{
+    background-color: rgb(238, 236, 236);
+}
+
+section.hero .left-side .sub-title{
+    color: rgb(167, 166, 166);
+    font-size: 24px;
+}
+
+section.hero .left-side .title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#work .our-work{
+    background-color:black;
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
+
+#work .card h3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#work .card p{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section footer{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 16px;
+    line-height: 40px;
+    color: #333333;
+}
+
+section footer .title{
+    color: rgb(68, 68, 68);
+    font-size: 2.5rem;
+}
+
+.footer footer p span{
+    font-weight: bold;
+}
+
+.card{
+    padding-bottom: 5px;
+}
+
+
